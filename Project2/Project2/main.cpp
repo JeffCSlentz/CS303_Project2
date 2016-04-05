@@ -76,17 +76,13 @@ int main() {
 
 		time++; //time increments the number of times the elevator has passed a floor.
 
-		if ((floorNum == 0) && (!Elevator.empty())) {
-			buttonPushed = true;
-			floorNum++;
-		}
-		else if (!Elevator.empty()) {
+		if (!Elevator.empty()) {
 			upOrDown(floorNum, Elevator, ElevatorTarget);
 			buttonPushed = true;
 		}
 		else {
 			if (!waiting.empty()) {
-				waiting.front().current_floor;
+				floorNum = waiting.front().current_floor;
 				waiting.pop();
 				buttonPushed = true;
 			}

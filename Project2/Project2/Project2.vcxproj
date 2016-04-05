@@ -18,6 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Floor.h" />
+    <ClInclude Include="Person.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{DC3AF210-CD12-4FC5-84C7-8DBA3D237913}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
