@@ -69,6 +69,5 @@ int main() {
 
 	report.close();
 
-	system("pause");
 	return 0;
 }
