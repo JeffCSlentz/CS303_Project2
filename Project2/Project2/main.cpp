@@ -59,7 +59,7 @@ int main() {
 			buttonPushed = true;
 		}
 
-		time++; //time increments the number of times the elevator has passed a floor.
+		time++; //time increments the number of times the elevator passes a floor
 
 	} while (buttonPushed);
 
