@@ -19,10 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Elevator.h" />
     <ClInclude Include="Floor.h" />
     <ClInclude Include="Person.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Elevator.cpp" />
+    <ClCompile Include="Floor.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
